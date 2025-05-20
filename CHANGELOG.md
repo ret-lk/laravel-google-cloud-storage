@@ -2,6 +2,58 @@
 
 All notable changes to `laravel-google-cloud-storage` will be documented in this file.
 
+## 2.3.4 - 2025-03-13
+
+### What's Changed
+
+* fix: missing import Spatie\GoogleCloudStorage\Rest by @jimnguyendev in https://github.com/spatie/laravel-google-cloud-storage/pull/106
+
+### New Contributors
+
+* @jechaviz1 made their first contribution in https://github.com/spatie/laravel-google-cloud-storage/pull/109
+
+**Full Changelog**: https://github.com/spatie/laravel-google-cloud-storage/compare/2.3.3...2.3.4
+
+## 2.3.3 - 2025-03-08
+
+**Full Changelog**: https://github.com/spatie/laravel-google-cloud-storage/compare/2.3.2...2.3.3
+
+## 2.3.2 - 2025-03-05
+
+### What's Changed
+
+* Improve Google Cloud Storage URL generation logic using bucket name by @neoformalex in https://github.com/spatie/laravel-google-cloud-storage/pull/103
+
+### New Contributors
+
+* @neoformalex made their first contribution in https://github.com/spatie/laravel-google-cloud-storage/pull/103
+
+**Full Changelog**: https://github.com/spatie/laravel-google-cloud-storage/compare/2.3.1...2.3.2
+
+## 2.4.0 - 2025-03-04
+
+### What's Changed
+
+* Fix url method using bucket name and storageApiUri due to Rest::DEFAULT_API_ENDPOINT is deprecated by @neoformalex in https://github.com/spatie/laravel-google-cloud-storage/pull/91
+
+### New Contributors
+
+* @neoformalex made their first contribution in https://github.com/spatie/laravel-google-cloud-storage/pull/91
+
+**Full Changelog**: https://github.com/spatie/laravel-google-cloud-storage/compare/2.3.1...2.4.0
+
+## 2.3.1 - 2025-02-24
+
+### What's Changed
+
+* :memo: typo by @jamessa in https://github.com/spatie/laravel-google-cloud-storage/pull/90
+
+### New Contributors
+
+* @jamessa made their first contribution in https://github.com/spatie/laravel-google-cloud-storage/pull/90
+
+**Full Changelog**: https://github.com/spatie/laravel-google-cloud-storage/compare/2.3.0...2.3.1
+
 ## 2.3.0 - 2024-03-14
 
 ### What's Changed

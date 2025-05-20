@@ -24,14 +24,15 @@ class GoogleCloudStorageAdapter extends FilesystemAdapter
     /**
      * Get the URL for the file at the given path.
      *
-     * @param  string  $path
+     * @param string $path
+     *
      * @return string
      *
      * @throws \RuntimeException
      */
     public function url($path)
     {
-        $storageApiUri = rtrim(Rest::DEFAULT_API_ENDPOINT, '/').'/'.ltrim(Arr::get($this->config, 'bucket'), '/');
+        $storageApiUri = rtrim(Rest::DEFAULT_API_ENDPOINT, '/') . '/' . ltrim(Arr::get($this->config, 'bucket'), '/');
 
         if (Arr::get($this->config, 'storageApiUri')) {
             $storageApiUri = Arr::get($this->config, 'storageApiUri');
@@ -43,9 +44,10 @@ class GoogleCloudStorageAdapter extends FilesystemAdapter
     /**
      * Get a temporary URL for the file at the given path.
      *
-     * @param  string  $path
-     * @param  \DateTimeInterface  $expiration
-     * @param  array  $options
+     * @param string $path
+     * @param \DateTimeInterface $expiration
+     * @param array $options
+     *
      * @return string
      */
     public function temporaryUrl($path, $expiration, array $options = [])
@@ -60,9 +62,10 @@ class GoogleCloudStorageAdapter extends FilesystemAdapter
     /**
      * Get a temporary upload URL for the file at the given path.
      *
-     * @param  string  $path
-     * @param  \DateTimeInterface  $expiration
-     * @param  array  $options
+     * @param string $path
+     * @param \DateTimeInterface $expiration
+     * @param array $options
+     *
      * @return string
      */
     public function temporaryUploadUrl($path, $expiration, array $options = [])
